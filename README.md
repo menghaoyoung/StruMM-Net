@@ -3,6 +3,8 @@ A general structure-based model to predict ionic conductivity of lithium-contain
 
 You can generate new lithium inorganic materials and predict their properties using a simplified version of StruMM-Net at `http://121.4.77.184/`
 
+To use the full version of StruMM-Net, follow the steps below：
+
 # Installation
 ```python
 conda create -n your-env-name python=3.8.20
