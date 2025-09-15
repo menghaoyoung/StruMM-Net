@@ -8,4 +8,6 @@ pip install -r requirements.txt
 ```
 
 # Usage
-## Predicting with Pretrained Models
+### Predicting with Pretrained Models
+
+### Fine-tuning
