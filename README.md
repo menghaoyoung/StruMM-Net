@@ -45,3 +45,5 @@ Select the pretrained model you wish to use. Models to choose: 'catboost', 'crab
 
 ### Fine-tuning
 If you want to fine-tuning the model on your own dataset, please prepare `train.csv`, `val.py` and `test.py` files, which should contain at least two columns: the log value of ionic conductivity `log_target` and the corresponding CIF file names `structure files`. The predicted results from composition-only models also should be prepared and placed in `predict_by_formula/`.
+
+Set ` fine_tuning = True` in `predict.py`, then you can alter and optimize the hyperparameters listed from line 159 to line 231.
