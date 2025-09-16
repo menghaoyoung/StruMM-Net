@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ### Data preprocessing
 The processed data used for training this model are stored in the `extracted_features/` folder.
 
-To preprocess your own data, run data_processing.py
+To preprocess your own data, run `data_processing.py`
 ```python
 if __name__ == "__main__":
     np.random.seed(224)
